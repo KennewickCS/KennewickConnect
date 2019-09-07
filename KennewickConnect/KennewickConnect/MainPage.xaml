@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KennewickConnect.MainPage"
+             Title="MainPage"
+             BackgroundColor="#262626">
+
+    <AbsoluteLayout>
+
+        <Button 
+            BorderRadius = "90"
+            WidthRequest="180"
+            HeightRequest = "180"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds=".5,.7,.5,.5"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="DarkOrange"
+            Text = "&#xf0ac;"
+            TextColor="#262626"
+            FontSize="150">
+            <Button.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="MarkerFelt-Thin" />
+                    <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
+                </OnPlatform>
+            </Button.FontFamily>
+        </Button>
+        
+        <Button 
+            BorderRadius = "40"
+            WidthRequest="80"
+            HeightRequest = "90"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds=".25,.25,.5,.5"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="DarkOrange"
+            Text = "&#xf1ea;"
+            TextColor="#262626"
+            FontSize="40">
+            <Button.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="MarkerFelt-Thin" />
+                    <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
+                </OnPlatform>
+            </Button.FontFamily>
+        </Button>
+
+        <Button 
+            BorderRadius = "40"
+            WidthRequest="80"
+            HeightRequest = "90"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds=".75,.25,.5,.5"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="DarkOrange"
+            Text = "&#xf11b;"
+            TextColor="#262626"
+            FontSize="40">
+            <Button.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="MarkerFelt-Thin" />
+                    <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
+                </OnPlatform>
+            </Button.FontFamily>
+        </Button>
+
+        <Button 
+            BorderRadius = "40"
+            WidthRequest="80"
+            HeightRequest = "90"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds="0.05,.45,.3,.5"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="DarkOrange"
+            Text = "&#xf5fc;"
+            TextColor="#262626"
+            FontSize="40">
+            <Button.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="MarkerFelt-Thin" />
+                    <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
+                </OnPlatform>
+            </Button.FontFamily>
+        </Button>
+
+        <Button 
+            BorderRadius = "40"
+            WidthRequest="80"
+            HeightRequest = "90"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds=".95,.45,.3,.5"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="DarkOrange"
+            Text = "&#xf44e;"
+            TextColor="#262626"
+            FontSize="40">
+            <Button.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="MarkerFelt-Thin" />
+                    <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
+                </OnPlatform>
+            </Button.FontFamily>
+        </Button>
+
+        <Button 
+            BorderRadius = "30"
+            WidthRequest="60"
+            HeightRequest = "60"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds="1,1,0.2,.15"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="DarkOrange"
+            Text = "&#xf129;"
+            TextColor="#262626"
+            FontSize="40">
+            <Button.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="MarkerFelt-Thin" />
+                    <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
+                </OnPlatform>
+            </Button.FontFamily>
+        </Button>
+
+        <Label
+            Text="Kennewick Connect"
+            TextColor="DarkOrange"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            FontSize="50"
+            WidthRequest="250"
+            HeightRequest = "1000"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            AbsoluteLayout.LayoutBounds=".5,.1,1,.2"
+            AbsoluteLayout.LayoutFlags="All">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="MarkerFelt-Thin" />
+                    <On Platform="Android" Value="Grenze-Bold.ttf#Grenze-Bold" />
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+
+    </AbsoluteLayout>
+
+</ContentPage>
